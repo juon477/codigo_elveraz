@@ -1,0 +1,167 @@
+/*
+globals
+*/
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 13px;
+  color: #fff;  
+}
+
+h1,
+h2,
+h3,
+h4 {
+  font-family: 'Lato', sans-serif;
+}
+
+h1 {
+  font-size: 32px;
+}
+
+h2 {
+  font-size: 26px;
+}
+
+h3 {
+  font-size: 20px;
+}
+
+a {
+  text-decoration: none;
+  color: #fff;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+/*
+  layout
+*/
+.container {
+  max-width: 960px;
+  width: 100%;
+  margin: auto;
+}
+
+
+/*
+header 
+*/
+.header {
+  background: #62346f;
+}
+
+.header .container {
+  height: 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header .header-left {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header .nav-main ul,
+.header .header-right {
+  display: flex;
+  align-items: center;
+}
+
+.header .logo {
+  font-size: 42px;
+}
+
+.header .nav-main {
+  margin-left: 88px;
+}
+
+.header .nav-main li {
+  margin-right: 40px;
+}
+
+.header .list-social li {
+  margin-left: 20px;
+  cursor: pointer;
+}
+
+/*
+  main
+*/
+.main {
+  padding: 20px 0;
+}
+/*
+  news principal 
+*/
+.news-principal {
+  display: flex;
+  justify-content: space-between;
+}
+
+.news-principal article {
+  position: relative;
+}
+
+.news-principal article .text {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(0, 0, 0, 0.3);
+}
+
+/*
+ news general
+*/
+.news-general {
+  display: flex;
+}
+
+.news-general article {
+  position: relative;
+}
+
+.news-general article .text {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(0, 0, 0, 0.3);
+}
+
+.news-general .news-present article {
+  width: 50%;
+}
+
+.news-present-articles {
+  display: flex;
+  flex-wrap: wrap;
+}
+/*
+  news-present
+*/
+.news-present {
+  display: flex;
+  flex-wrap: wrap;
+  height: 100%;
+}
+
+/*
+  footer
+*/
+.footer {
+  background: #62346f;
+}
+
+.footer .container {
+  height: 76px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}

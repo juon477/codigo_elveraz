@@ -7,114 +7,66 @@
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>ElVeraz</title>
   <link rel="stylesheet" href="assets/styles/reset.css">
+  <!-- <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet"> -->
+  <link rel="stylesheet" href="./assets/fonts/lato/lato.css">
   <link rel="stylesheet" href="assets/styles/main.css">
 </head>
 
 <body>
   <div class="wrapper">
     <header class="header">
-      <div class="header-left">
-        <a class="logo">ELVERAZ</a>
-        <nav>
-          <ul>
-            <li><a href="">Politica</a></li>
-            <li><a href="">Deporte</a></li>
-            <li><a href="">Espectaculo</a></li>
-            <li><a href="">Tecnologia</a></li>
-          </ul>
-        </nav>
+      <div class="container">
+        <div class="header-left">
+          <a class="logo">ELVERAZ</a>
+          <nav class="nav-main">
+            <ul>
+              <li><a href="">Politica</a></li>
+              <li><a href="">Deporte</a></li>
+              <li><a href="">Espectaculo</a></li>
+              <li><a href="">Tecnologia</a></li>
+            </ul>
+          </nav>
+        </div>
+        <ul class="header-right list-social">
+          <li><img src="./assets/images/social.png" alt=""></li>
+          <li><img src="./assets/images/search.png" alt=""></li>
+        </ul>
       </div>
-      <ul class="header-right list-social">
-        <li><img src="./assets/images/social.png" alt=""></li>
-        <li><img src="./assets/images/search.png" alt=""></li>
-      </ul>
     </header>
     <main class="main">
-      <section class="news-principal">
-        <article class="news-principal-one">
-          <div class="text">
-            <h1>Politica</h1>
-            <h2>Salvador del Solar es el nuevo presidente del Consejo de Ministros</h2>
-            <div>
+      <div class="container">
+        <section class="news-principal">
+          <article class="news-principal-one">
+            <div class="text">
+              <h1>Politica</h1>
+              <h2>Salvador del Solar es el nuevo presidente del Consejo de Ministros</h2>
+              <div>
+                <time>Hace 3 horas</time>
+                <ul class="list-social">
+                  <li><a class="button button-fb">F</a></li>
+                  <li><a class="button button-tw">T</a></li>
+                </ul>
+              </div>
+            </div>
+            <figure>
+              <img src="https://picsum.photos/470/340" alt="">
+            </figure>
+          </article>
+          <article class="news-principal-two">
+            <div class="text">
+              <a class="tag" href="">Politica</a>
+              <h2>Las protestas cada vez son mayores</h2>
               <time>Hace 3 horas</time>
               <ul class="list-social">
                 <li><a class="button button-fb">F</a></li>
                 <li><a class="button button-tw">T</a></li>
               </ul>
             </div>
-          </div>
-          <figure>
-            <img src="https://picsum.photos/470/340" alt="">
-          </figure>
-        </article>
-        <article class="news-principal-two">
-          <div class="text">
-            <a class="tag" href="">Politica</a>
-            <h2>Las protestas cada vez son mayores</h2>
-            <time>Hace 3 horas</time>
-            <ul class="list-social">
-              <li><a class="button button-fb">F</a></li>
-              <li><a class="button button-tw">T</a></li>
-            </ul>
-          </div>
-          <figure>
-            <img src="https://picsum.photos/143/340" alt="">
-          </figure>
-        </article>
-        <section class="news-principal-three">
-          <article>
-            <div class="text">
-              <a class="tag" href="">Politica</a>
-              <h2>Las chicas campeonas otra vez</h2>
-              <div>
-                <time>Hace 3 horas</time>
-                <ul class="list-social">
-                  <li><a class="button button-fb">F</a></li>
-                  <li><a class="button button-tw">T</a></li>
-                </ul>
-              </div>
-            </div>
             <figure>
-              <img src="https://picsum.photos/306/100" alt="">
+              <img src="https://picsum.photos/143/340" alt="">
             </figure>
           </article>
-          <article>
-            <div class="text">
-              <a class="tag" href="">Politica</a>
-              <h2>Las chicas campeonas otra vez</h2>
-              <div>
-                <time>Hace 3 horas</time>
-                <ul class="list-social">
-                  <li><a class="button button-fb">F</a></li>
-                  <li><a class="button button-tw">T</a></li>
-                </ul>
-              </div>
-            </div>
-            <figure>
-              <img src="https://picsum.photos/306/100" alt="">
-            </figure>
-          </article>
-          <article>
-            <div class="text">
-              <a class="tag" href="">Politica</a>
-              <h2>Las chicas campeonas otra vez</h2>
-              <div>
-                <time>Hace 3 horas</time>
-                <ul class="list-social">
-                  <li><a class="button button-fb">F</a></li>
-                  <li><a class="button button-tw">T</a></li>
-                </ul>
-              </div>
-            </div>
-            <figure>
-              <img src="https://picsum.photos/306/100" alt="">
-            </figure>
-          </article>
-        </section>
-      </section>
-      <section class="news-general">
-        <section class="news-present">
-          <div class="news-present-articles">
+          <section class="news-principal-three">
             <article>
               <div class="text">
                 <a class="tag" href="">Politica</a>
@@ -128,14 +80,9 @@
                 </div>
               </div>
               <figure>
-                <img src="https://picsum.photos/470/340" alt="">
+                <img src="https://picsum.photos/306/100" alt="">
               </figure>
             </article>
-          </div>
-          <a class="btn-view-more" href="">Ver mas</a>
-        </section>
-        <section class="news-more-read">
-          <div class="news-more-read">
             <article>
               <div class="text">
                 <a class="tag" href="">Politica</a>
@@ -149,17 +96,174 @@
                 </div>
               </div>
               <figure>
-                <img src="https://picsum.photos/470/340" alt="">
+                <img src="https://picsum.photos/306/100" alt="">
               </figure>
             </article>
-          </div>
-          <a class="btn-view-more" href="">Ver mas</a>
+            <article>
+              <div class="text">
+                <a class="tag" href="">Politica</a>
+                <h2>Las chicas campeonas otra vez</h2>
+                <div>
+                  <time>Hace 3 horas</time>
+                  <ul class="list-social">
+                    <li><a class="button button-fb">F</a></li>
+                    <li><a class="button button-tw">T</a></li>
+                  </ul>
+                </div>
+              </div>
+              <figure>
+                <img src="https://picsum.photos/306/100" alt="">
+              </figure>
+            </article>
+          </section>
         </section>
-      </section>
+        <section class="news-general">
+          <section class="news-present">
+            <div class="news-present-articles">
+              <article>
+                <div class="text">
+                  <a class="tag" href="">Politica</a>
+                  <h2>Las chicas campeonas otra vez</h2>
+                  <div>
+                    <time>Hace 3 horas</time>
+                    <ul class="list-social">
+                      <li><a class="button button-fb">F</a></li>
+                      <li><a class="button button-tw">T</a></li>
+                    </ul>
+                  </div>
+                </div>
+                <figure>
+                  <img src="https://picsum.photos/306/160" alt="">
+                </figure>
+              </article>
+              <article>
+                <div class="text">
+                  <a class="tag" href="">Politica</a>
+                  <h2>Las chicas campeonas otra vez</h2>
+                  <div>
+                    <time>Hace 3 horas</time>
+                    <ul class="list-social">
+                      <li><a class="button button-fb">F</a></li>
+                      <li><a class="button button-tw">T</a></li>
+                    </ul>
+                  </div>
+                </div>
+                <figure>
+                  <img src="https://picsum.photos/306/160" alt="">
+                </figure>
+              </article>
+              <article>
+                <div class="text">
+                  <a class="tag" href="">Politica</a>
+                  <h2>Las chicas campeonas otra vez</h2>
+                  <div>
+                    <time>Hace 3 horas</time>
+                    <ul class="list-social">
+                      <li><a class="button button-fb">F</a></li>
+                      <li><a class="button button-tw">T</a></li>
+                    </ul>
+                  </div>
+                </div>
+                <figure>
+                  <img src="https://picsum.photos/306/160" alt="">
+                </figure>
+              </article>
+              <article>
+                <div class="text">
+                  <a class="tag" href="">Politica</a>
+                  <h2>Las chicas campeonas otra vez</h2>
+                  <div>
+                    <time>Hace 3 horas</time>
+                    <ul class="list-social">
+                      <li><a class="button button-fb">F</a></li>
+                      <li><a class="button button-tw">T</a></li>
+                    </ul>
+                  </div>
+                </div>
+                <figure>
+                  <img src="https://picsum.photos/306/160" alt="">
+                </figure>
+              </article>
+            </div>
+            <a class="btn-view-more" href="">Ver mas</a>
+          </section>
+          <section class="news-more-read">
+            <div class="news-more-read-articles">
+              <article>
+                <div class="text">
+                  <a class="tag" href="">Politica</a>
+                  <h2>Las chicas campeonas otra vez</h2>
+                  <div>
+                    <time>Hace 3 horas</time>
+                    <ul class="list-social">
+                      <li><a class="button button-fb">F</a></li>
+                      <li><a class="button button-tw">T</a></li>
+                    </ul>
+                  </div>
+                </div>
+                <figure>
+                  <img src="https://picsum.photos/306/160" alt="">
+                </figure>
+              </article>
+              <article>
+                <div class="text">
+                  <a class="tag" href="">Politica</a>
+                  <h2>Las chicas campeonas otra vez</h2>
+                  <div>
+                    <time>Hace 3 horas</time>
+                    <ul class="list-social">
+                      <li><a class="button button-fb">F</a></li>
+                      <li><a class="button button-tw">T</a></li>
+                    </ul>
+                  </div>
+                </div>
+                <figure>
+                  <img src="https://picsum.photos/306/160" alt="">
+                </figure>
+              </article>
+              <article>
+                <div class="text">
+                  <a class="tag" href="">Politica</a>
+                  <h2>Las chicas campeonas otra vez</h2>
+                  <div>
+                    <time>Hace 3 horas</time>
+                    <ul class="list-social">
+                      <li><a class="button button-fb">F</a></li>
+                      <li><a class="button button-tw">T</a></li>
+                    </ul>
+                  </div>
+                </div>
+                <figure>
+                  <img src="https://picsum.photos/306/160" alt="">
+                </figure>
+              </article>
+              <article>
+                <div class="text">
+                  <a class="tag" href="">Politica</a>
+                  <h2>Las chicas campeonas otra vez</h2>
+                  <div>
+                    <time>Hace 3 horas</time>
+                    <ul class="list-social">
+                      <li><a class="button button-fb">F</a></li>
+                      <li><a class="button button-tw">T</a></li>
+                    </ul>
+                  </div>
+                </div>
+                <figure>
+                  <img src="https://picsum.photos/306/160" alt="">
+                </figure>
+              </article>
+            </div>
+            <a class="btn-view-more" href="">Ver mas</a>
+          </section>
+        </section>
+      </div>
     </main>
     <footer class="footer">
-      <a class="logo" href="">ELVERAS</a>
-      <p>Todos los derechos reservados | copyright 2019</p>
+      <div class="container">
+        <a class="logo" href="">ELVERAS</a>
+        <p>Todos los derechos reservados | copyright 2019</p>
+      </div>
     </footer>
   </div>
 </body>
