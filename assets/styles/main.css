@@ -21,10 +21,12 @@ h3 {
 
 h1 {
   font-size: 32px;
+  line-height: 38px;
 }
 
 h2 {
   font-size: 26px;
+  line-height: 32px;
 }
 
 * {
@@ -49,6 +51,17 @@ layout
 }
 .list-social li{
   margin: 0 5px;
+}
+
+.button {
+  width: 26px;
+  height: 26px;
+  border: 2px solid white;
+  border-radius: 26px;
+  display: inline-block;
+  text-align: center;
+  line-height: 24px;
+  font-size: 10px;
 }
 
 
@@ -135,6 +148,11 @@ news
 .news .text .time-social {
   display: flex;
   justify-content: space-between;
+  align-items: center;
+}
+
+.news time {
+  font-size: 11px;
 }
 
 /*
@@ -162,11 +180,30 @@ news-principal
   padding: 20px;
 }
 
+.news-principal-one h2 {
+  margin-bottom: 20px;
+}
+
 /*
   news-principal-two
 */
 .news-principal-two .text {
   padding: 8px;
+}
+
+.news-principal-two h2 {
+  font-size: 20px;
+  line-height: 24px;
+  margin-bottom: 18px;
+}
+
+.news-principal-two time {
+  margin-bottom: 9px;
+  display: inline-block;
+}
+
+.news-principal-two .text-bottom {
+  padding: 8px 8px 10px;
 }
 
 /*
